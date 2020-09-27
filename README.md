@@ -1,6 +1,9 @@
 # QuoteApp
 application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational. 
-
+Create a new quote.
+Upvote or downvote a quote.
+Delete a quote
+See the number of upvotes and number of downvotes for each quote.
  
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
