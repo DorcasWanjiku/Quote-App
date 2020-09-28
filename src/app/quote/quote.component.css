@@ -9,7 +9,7 @@
   }
   
   #two {
-    background-image: url('/assets/five.jpg');
+    background-image: url('/assets/eight.jpg');
   }
   
   #lol {
@@ -60,7 +60,7 @@
     padding: 4px;
     margin: 4px;
     border: none;
-    color: white;
+    color: whit;
     width: 150px;
     font-variant: small-caps;
     font-size: 13px;
