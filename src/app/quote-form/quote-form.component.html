@@ -1,7 +1,7 @@
 <div class="container-fluid" id="name">
     <div class="row">
       <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
-        <!-- authors details -->
+      
         <div class="form-group">
           <label for="name">Original Authors Name</label>
           <input type="text" class="form-control" id="name" [(ngModel)]="newQuote.name" name="name" #name="ngModel" required>
@@ -9,7 +9,7 @@
             <p>Please add original author's name</p>
           </div>
         </div>
-        <!-- quote itself -->
+        
         <div class="form-group">
           <label for="description">Quote</label>
           <textarea class="form-control" id="description" rows="5" [(ngModel)]="newQuote.description" name="quote" #description="ngModel" required></textarea>
@@ -18,7 +18,7 @@
   
           </div>
         </div>
-        <!--who submitted the quote  -->
+       
         <div class="form-group">
           <label for="submitter">Submitted By:</label>
           <textarea class="form-control" id="submitter" rows="1" [(ngModel)]="newQuote.submitter" name="submitter" #description="ngModel" required></textarea>
